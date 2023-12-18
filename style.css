@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: "Roboto", sans-serif;
+}
+
+.custom-div-1 {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+}
+
+.span-1 {
+    width: 25px;
+    height: 25px;
+    display: block;
+    background-color: white;
+}
+
+.custom-div-2 {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(0, 255, 42);
+}
+
+.custom-div-3 {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(29, 44, 177);
+}
+
+.custom-div-4 {
+    width: 20px;
+    height: 20px;
+    background-color: rgb(180, 136, 15);
+}
+
+.custom-div-5 {
+    width: 35px;
+    height: 35px;
+    background-color: rgb(42, 186, 230);
+} 
+
+.card {
+    border: 1px solid #cccccc;
+    max-width: 400px;
+    width: 100%;
+    position: relative;
+}
+
+.card-thumb {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 175px;
+    object-fit: cover;
+
+}
+.card-thumb img {
+    object-fit: cover;
+    height: 100%;
+    width: 150px;
+}
+
+.card-content {
+    padding: 20px 20px 20px 195px;
+}
+
+.card-content h3 {
+    margin: 0 0 10px;
+    font-size: 24px;
+}
+
+.card-content p {
+    margin: 0 0 15px;
+    font-size: 16px;
+    color: #aaaaaa;
+}
+
+
+.card-link {
+    padding: 7px 15px;
+    border-radius: 5px;
+    background-color: rgb(67, 111, 233);
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.25s all ease-in-out;
+}
+
+.card-link:hover {
+    background-color: aqua;
+}
+
